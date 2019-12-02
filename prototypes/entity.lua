@@ -30,7 +30,7 @@ if mods["angelsindustries"] then
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-bot-wagon-2",
-				width = 8,
+				width = 10,
 				height = 6,
 				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
 			},
@@ -715,7 +715,7 @@ if mods["angelsindustries"] then
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-bot-wagon-3",
-				width = 8,
+				width = 11,
 				height = 7,
 				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
 			},
@@ -3980,21 +3980,21 @@ data:extend(
         {
             type = "equipment-grid",
             name = "bob-bot-wagon-1",
-            width = 8,
+            width = 9,
             height = 5,
             equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
         },
         {
             type = "equipment-grid",
             name = "bob-bot-wagon-2",
-            width = 8,
+            width = 10,
             height = 6,
             equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
         },
         {
             type = "equipment-grid",
             name = "bob-bot-wagon-3",
-            width = 8,
+            width = 11,
             height = 7,
             equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
         },

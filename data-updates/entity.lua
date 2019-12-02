@@ -23,7 +23,7 @@ if mods["angelsindustries"] then
 	data.raw["equipment-grid"]["angels-crawler-locomotive"].width=8
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].width=8
 	data.raw["equipment-grid"]["angels-crawler-wagon"].width=8
-	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].width=8
+	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].width=10
     data.raw["equipment-grid"]["angels-crawler-locomotive"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 	data.raw["equipment-grid"]["angels-crawler-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
