@@ -31,7 +31,7 @@ if mods["angelsindustries"] then
 	data.raw["equipment-grid"]["angels-crawler-locomotive"].height=2
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].height=2
 	data.raw["equipment-grid"]["angels-crawler-wagon"].height=2
-	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].height=4
+	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].height=5
 	data.raw["locomotive"]["crawler-locomotive"].max_health=1200
 	data.raw["locomotive"]["crawler-locomotive-wagon"].max_health=1200
 	data.raw["cargo-wagon"]["crawler-wagon"].max_health=800
