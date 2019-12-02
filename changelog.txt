@@ -1,0 +1,21 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 28. 11. 2019
+  Bugfixes:
+    - several startup crash fixes
+  Features:
+    - added Mk2 and Mk3 versions of Crawler-, Petrochem- and Smelting-Trains
+    - added Bobingabout versions of Crawler Bot Wagon
+    - changed Arch666Angel Item Grid sizes to reflect Bobingabout values
+    - changed Bobingabout crafting costs to reflect Arch666Angel costs
+    - increased Crawler train crafting costs
+    - changed Smelting- and Petrochem-Train values to correspond to Bobingabout values
+    - removed Roboport capabilities from all Locomotives and Wagons, except Bot Wagons
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 27. 11. 2019
+  Features:
+    - Initial release
+
+
+

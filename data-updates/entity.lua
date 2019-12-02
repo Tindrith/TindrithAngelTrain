@@ -1,10 +1,33 @@
 -- update entity properties"
 
+if mods["bobvehicleequipment"] then
+    data.raw["roboport-equipment"]["vehicle-roboport"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-2"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-3"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-4"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-antenna-equipment"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-antenna-equipment-2"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-antenna-equipment-3"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-antenna-equipment-4"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-chargepad-equipment"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-chargepad-equipment-2"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-chargepad-equipment-3"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-chargepad-equipment-4"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-chargepad-equipment"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-chargepad-equipment-2"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-chargepad-equipment-3"].categories={"bot-wagon"}
+    data.raw["roboport-equipment"]["vehicle-roboport-chargepad-equipment-4"].categories={"bot-wagon"}
+end
+
 if mods["angelsindustries"] then
 	data.raw["equipment-grid"]["angels-crawler-locomotive"].width=8
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].width=8
 	data.raw["equipment-grid"]["angels-crawler-wagon"].width=8
 	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].width=8
+    data.raw["equipment-grid"]["angels-crawler-locomotive"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
+	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
+	data.raw["equipment-grid"]["angels-crawler-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
+	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
 	data.raw["equipment-grid"]["angels-crawler-locomotive"].height=2
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].height=2
 	data.raw["equipment-grid"]["angels-crawler-wagon"].height=2

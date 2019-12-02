@@ -256,3 +256,99 @@ if mods["angelsaddons-smeltingtrain"] then
 	}
 )
 end 
+
+if mods["bobvehicleequipment"] then
+data:extend(
+	{
+		{
+			type = "technology",
+			name = "bob-bot-train-1",
+            icon = "__base__/graphics/technology/railway.png",
+			icon_size = 128,
+			effects =
+			{
+				{
+					type = "unlock-recipe",
+					recipe = "bob-cargo-bot-wagon-1"
+				},
+			},
+			prerequisites =
+			{
+                "railway",
+                "advanced-electronics",
+                "automated-rail-transportation",
+			},
+			unit =
+			{
+				count = 60,
+				ingredients =
+				{
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+				},
+				time = 15
+			},
+			order = "c-a-2",
+		},
+
+		{
+			type = "technology",
+			name = "bob-bot-train-2",
+            icon = "__base__/graphics/technology/railway.png",
+			icon_size = 128,
+			effects =
+			{
+				{
+					type = "unlock-recipe",
+					recipe = "bob-cargo-bot-wagon-2"
+				},
+			},
+			prerequisites =
+			{
+				"bob-railway-2",
+			},
+			unit =
+			{
+				count = 60,
+				ingredients =
+				{
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+				},
+				time = 15
+			},
+			order = "c-a-2",
+		},
+
+		{
+			type = "technology",
+			name = "bob-bot-train-3",
+            icon = "__base__/graphics/technology/railway.png",
+			icon_size = 128,
+			effects =
+			{
+				{
+					type = "unlock-recipe",
+					recipe = "bob-cargo-bot-wagon-3"
+				},
+			},
+			prerequisites =
+			{
+				"bob-railway-3",
+			},
+			unit =
+			{
+				count = 60,
+				ingredients =
+				{
+					{"automation-science-pack", 1},
+					{"logistic-science-pack", 1},
+					{"chemical-science-pack", 1},
+				},
+				time = 15
+			},
+			order = "c-a-3",
+		}
+	}
+)
+end

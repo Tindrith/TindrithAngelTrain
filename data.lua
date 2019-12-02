@@ -1,7 +1,3 @@
--- update technology prerequisites
-
-require("data-updates.technology")
-
 -- update entity properties
 
 require("data-updates.entity")
@@ -10,9 +6,9 @@ require("data-updates.entity")
 
 require("data-updates.recipe")
 
--- create new technologies mk2-mk3
+-- update technology prerequisites
 
-require("prototypes.technology")
+require("data-updates.technology")
 
 -- create new entities mk2-mk3
 
@@ -21,3 +17,7 @@ require("prototypes.entity")
 -- create new recipes
 
 require("prototypes.recipe")
+
+-- create new technologies mk2-mk3
+
+require("prototypes.technology")

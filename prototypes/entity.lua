@@ -11,28 +11,28 @@ if mods["angelsindustries"] then
 				name = "angels-crawler-locomotive-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-loco-wagon-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-wagon-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-bot-wagon-2",
 				width = 8,
 				height = 5,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
 			},
 			{
 				type = "item-with-entity-data",
@@ -696,28 +696,28 @@ if mods["angelsindustries"] then
 				name = "angels-crawler-locomotive-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-loco-wagon-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-wagon-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-bot-wagon-3",
 				width = 8,
 				height = 6,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
 			},
 			{
 				type = "item-with-entity-data",
@@ -1387,14 +1387,14 @@ if mods["angelsaddons-petrotrain"] then
 				name = "angels-petro-locomotive-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-petro-tank-wagon-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
 			},
 			{
 				type = "item-with-entity-data",
@@ -1966,14 +1966,14 @@ if mods["angelsaddons-petrotrain"] then
 				name = "angels-petro-locomotive-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-petro-tank-wagon-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement"}
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
 			},
 			{
 				type = "item-with-entity-data",
@@ -2551,14 +2551,14 @@ if mods["angelsaddons-smeltingtrain"] then
 				name = "angels-smelting-locomotive-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-void"}		--"angels-energy", "angels-heavy-defense", "angels-movement"
+				equipment_categories = {"angels-void", "train", "locomotive"}		--"angels-energy", "angels-heavy-defense", "angels-movement"
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-smelting-wagon-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-void"}		--"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"
+				equipment_categories = {"angels-void", "train", "cargo-wagon"}		--"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"
 			},
 			{
 				type = "item-with-entity-data",
@@ -3262,14 +3262,14 @@ if mods["angelsaddons-smeltingtrain"] then
 				name = "angels-smelting-locomotive-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-void"}		--"angels-energy", "angels-heavy-defense", "angels-movement"
+				equipment_categories = {"angels-void", "train", "locomotive"}		--"angels-energy", "angels-heavy-defense", "angels-movement"
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-smelting-wagon-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-void"}		--"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"
+				equipment_categories = {"angels-void", "train", "cargo-wagon"}		--"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"
 			},
 			{
 				type = "item-with-entity-data",
@@ -3968,4 +3968,222 @@ if mods["angelsaddons-smeltingtrain"] then
 			},
 		}
 	)
+end
+
+if mods["boblogistics"] then
+data:extend(
+    {
+        {
+            type = "equipment-category",
+            name = "bot-wagon"
+        },            
+        {
+            type = "equipment-grid",
+            name = "bob-bot-wagon-1",
+            width = 8,
+            height = 4,
+            equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
+        },
+        {
+            type = "equipment-grid",
+            name = "bob-bot-wagon-2",
+            width = 8,
+            height = 5,
+            equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
+        },
+        {
+            type = "equipment-grid",
+            name = "bob-bot-wagon-3",
+            width = 8,
+            height = 6,
+            equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
+        },
+       {
+            type = "item-with-entity-data",
+            name = "bob-cargo-bot-wagon-1",
+            icon = "__base__/graphics/icons/cargo-wagon.png",
+            icon_size = 32,
+            subgroup = "bob-cargo-wagon",
+            order = "a[train-system]-f[cargo-bot-wagon-1]",
+            place_result = "bob-cargo-bot-wagon-1",
+            stack_size = 10
+        },
+        util.merge{data.raw["cargo-wagon"]["cargo-wagon"],
+            {
+                name = "bob-cargo-bot-wagon-1",
+                minable = {result = "bob-cargo-bot-wagon-1"},
+                inventory_size = 50,
+                max_health = 800,
+                weight = 1000,
+                max_speed = 1.5,
+                braking_force = 3,
+                friction_force = 0.5,
+                air_resistance = 0.01,
+                resistances = {
+                    {
+                        type = "fire",
+                        decrease = 15,
+                        percent = 50
+                    },
+                    {
+                        type = "physical",
+                        decrease = 15,
+                        percent = 30
+                    },
+                    {
+                        type = "impact",
+                        decrease = 50,
+                        percent = 60
+                    },
+                    {
+                        type = "explosion",
+                        decrease = 15,
+                        percent = 30
+                    },
+                    {
+                        type = "acid",
+                        decrease = 5,
+                        percent = 20
+                    },
+                    {
+                        type = "laser",
+                        decrease = 10,
+                        percent = 30,
+                    },
+                    {
+                        type = "poison",
+                        decrease = 15,
+                        percent = 60,
+                    },
+                },
+                color = {r = 0.43, g = 0.23, b = 0, a = 0.5},
+                equipment_grid = "bob-bot-wagon-1",
+            }
+        },
+        {
+            type = "item-with-entity-data",
+            name = "bob-cargo-bot-wagon-2",
+            icon = "__base__/graphics/icons/cargo-wagon.png",
+            icon_size = 32,
+            subgroup = "bob-cargo-wagon",
+            order = "a[train-system]-f[cargo-bot-wagon-2]",
+            place_result = "bob-cargo-bot-wagon-2",
+            stack_size = 10
+        },
+        util.merge{data.raw["cargo-wagon"]["cargo-wagon"],
+            {
+                name = "bob-cargo-bot-wagon-2",
+                minable = {result = "bob-cargo-bot-wagon-2"},
+                inventory_size = 70,
+                max_health = 800,
+                weight = 1500,--original is 1000
+                max_speed = 2.5,--1.5
+                braking_force = 4,--3
+                friction_force = 0.375,--0.5
+                air_resistance = 0.0075,--0.01
+                resistances = {
+                    {
+                        type = "fire",
+                        decrease = 15,
+                        percent = 50
+                    },
+                    {
+                        type = "physical",
+                        decrease = 15,
+                        percent = 30
+                    },
+                    {
+                        type = "impact",
+                        decrease = 50,
+                        percent = 60
+                    },
+                    {
+                        type = "explosion",
+                        decrease = 15,
+                        percent = 30
+                    },
+                    {
+                        type = "acid",
+                        decrease = 5,
+                        percent = 20
+                    },
+                    {
+                        type = "laser",
+                        decrease = 10,
+                        percent = 30,
+                    },
+                    {
+                        type = "poison",
+                        decrease = 15,
+                        percent = 60,
+                    },
+                },
+                color = {r = 0.43, g = 0.23, b = 0, a = 0.5},
+                equipment_grid = "bob-bot-wagon-2",
+            }
+        },
+        {
+            type = "item-with-entity-data",
+            name = "bob-cargo-bot-wagon-3",
+            icon = "__base__/graphics/icons/cargo-wagon.png",
+            icon_size = 32,
+            subgroup = "bob-cargo-wagon",
+            order = "a[train-system]-f[cargo-bot-wagon-3]",
+            place_result = "bob-cargo-bot-wagon-3",
+            stack_size = 10
+        },
+        util.merge{data.raw["cargo-wagon"]["cargo-wagon"],
+            {
+                name = "bob-cargo-bot-wagon-3",
+                minable = {result = "bob-cargo-bot-wagon-3"},
+                inventory_size = 90,
+                max_health = 1000,
+                weight = 2000,
+                max_speed = 3.5,
+                braking_force = 5,
+                friction_force = 0.25,
+                air_resistance = 0.005,
+                resistances = {
+                    {
+                        type = "fire",
+                        decrease = 15,
+                        percent = 50
+                    },
+                    {
+                        type = "physical",
+                        decrease = 15,
+                        percent = 30
+                    },
+                    {
+                        type = "impact",
+                        decrease = 50,
+                        percent = 60
+                    },
+                    {
+                        type = "explosion",
+                        decrease = 15,
+                        percent = 30
+                    },
+                    {
+                        type = "acid",
+                        decrease = 5,
+                        percent = 20
+                    },
+                    {
+                        type = "laser",
+                        decrease = 10,
+                        percent = 30,
+                    },
+                    {
+                        type = "poison",
+                        decrease = 15,
+                        percent = 60,
+                    },
+                },
+                color = {r = 0.43, g = 0.23, b = 0, a = 0.5},
+                equipment_grid = "bob-bot-wagon-3",
+            }
+        }
+    }
+)
 end

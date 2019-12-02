@@ -298,3 +298,51 @@ if mods["angelsaddons-smeltingtrain"] then
 		}
 	)
 end
+
+if mods["boblogistics"] then
+	data:extend(
+		{
+			{
+				type = "recipe",
+				name = "bob-cargo-bot-wagon-1",
+				enabled = false,
+				ingredients =
+				{
+					{"iron-gear-wheel", 25},
+					{"iron-plate", 30},
+					{"steel-plate", 50},
+					{"electronic-circuit", 20},
+				},
+				result = "bob-cargo-bot-wagon-1"
+			},
+			{
+				type = "recipe",
+				name = "bob-cargo-bot-wagon-2",
+				enabled = false,
+				ingredients =
+				{
+					{"bob-cargo-bot-wagon-1", 1},
+					{"advanced-circuit", 20},
+					{"invar-alloy", 20},
+					{"steel-gear-wheel", 12},
+					{"steel-bearing", 8},
+				},
+				result = "bob-cargo-bot-wagon-2"
+			},
+			{
+				type = "recipe",
+				name = "bob-cargo-bot-wagon-3",
+				enabled = false,
+				ingredients =
+				{
+					{"bob-cargo-bot-wagon-2", 1},
+					{"processing-unit", 20},
+					{"titanium-plate", 20},
+					{"titanium-gear-wheel", 12},
+					{"titanium-bearing", 8},
+				},
+				result = "bob-cargo-bot-wagon-3"
+			},
+		}
+	)
+end
