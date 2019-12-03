@@ -4,6 +4,7 @@ if mods["angelsindustries"] then
 			{
 				type = "recipe",
 				name = "crawler-locomotive-2",
+                energy_required = 15,
 				enabled = false,
 				ingredients =
 				{
@@ -18,6 +19,7 @@ if mods["angelsindustries"] then
 			{
 				type = "recipe",
 				name = "crawler-locomotive-3",
+                energy_required = 20,
 				enabled = false,
 				ingredients =
 				{
@@ -32,6 +34,7 @@ if mods["angelsindustries"] then
 			{
 				type = "recipe",
 				name = "crawler-locomotive-wagon-2",
+                energy_required = 15,
 				enabled = false,
 				ingredients =
 				{
@@ -46,6 +49,7 @@ if mods["angelsindustries"] then
 			{
 				type = "recipe",
 				name = "crawler-locomotive-wagon-3",
+                energy_required = 20,
 				enabled = false,
 				ingredients =
 				{
@@ -60,6 +64,7 @@ if mods["angelsindustries"] then
 			{
 				type = "recipe",
 				name = "crawler-wagon-2",
+                energy_required = 15,
 				enabled = false,
 				ingredients =
 				{
@@ -73,6 +78,7 @@ if mods["angelsindustries"] then
 			{
 				type = "recipe",
 				name = "crawler-wagon-3",
+                energy_required = 20,
 				enabled = false,
 				ingredients =
 				{
@@ -86,6 +92,7 @@ if mods["angelsindustries"] then
 			{
 				type = "recipe",
 				name = "crawler-bot-wagon-2",
+                energy_required = 15,
 				enabled = false,
 				ingredients =
 				{
@@ -100,6 +107,7 @@ if mods["angelsindustries"] then
 			{
 				type = "recipe",
 				name = "crawler-bot-wagon-3",
+                energy_required = 20,
 				enabled = false,
 				ingredients =
 				{
@@ -121,6 +129,7 @@ if mods["angelsaddons-petrotrain"] then
 			{
 				type = "recipe",
 				name = "petro-locomotive-2",
+                energy_required = 15,
 				enabled = false,
 				ingredients =
 				{
@@ -135,6 +144,7 @@ if mods["angelsaddons-petrotrain"] then
 			{
 				type = "recipe",
 				name = "petro-locomotive-3",
+                energy_required = 20,
 				enabled = false,
 				ingredients =
 				{
@@ -149,8 +159,8 @@ if mods["angelsaddons-petrotrain"] then
 			{
 				type = "recipe",
 				name = "petro-tank1-2",
+                energy_required = 15,
 				enabled = false,
-				energy_required = 1.5,
 				ingredients =
 				{
 					{"petro-tank1", 1},
@@ -164,8 +174,8 @@ if mods["angelsaddons-petrotrain"] then
 			{
 				type = "recipe",
 				name = "petro-tank1-3",
+                energy_required = 20,
 				enabled = false,
-				energy_required = 1.5,
 				ingredients =
 				{
 					{"petro-tank1-2", 1},
@@ -179,8 +189,8 @@ if mods["angelsaddons-petrotrain"] then
 			{
 				type = "recipe",
 				name = "petro-tank2-2",
+                energy_required = 15,
 				enabled = false,
-				energy_required = 1.5,
 				ingredients =
 				{
 					{"petro-tank2", 1},
@@ -194,8 +204,8 @@ if mods["angelsaddons-petrotrain"] then
 			{
 				type = "recipe",
 				name = "petro-tank2-3",
+                energy_required = 20,
 				enabled = false,
-				energy_required = 1.5,
 				ingredients =
 				{
 					{"petro-tank2-2", 1},
@@ -216,6 +226,7 @@ if mods["angelsaddons-smeltingtrain"] then
 			{
 				type = "recipe",
 				name = "smelting-locomotive-2",
+                energy_required = 15,
 				enabled = false,
 				ingredients =
 				{
@@ -230,6 +241,7 @@ if mods["angelsaddons-smeltingtrain"] then
 			{
 				type = "recipe",
 				name = "smelting-locomotive-3",
+                energy_required = 20,
 				enabled = false,
 				ingredients =
 				{
@@ -244,6 +256,7 @@ if mods["angelsaddons-smeltingtrain"] then
 			{
 				type = "recipe",
 				name = "smelting-locomotive-tender-2",
+                energy_required = 15,
 				enabled = false,
 				ingredients =
 				{
@@ -258,6 +271,7 @@ if mods["angelsaddons-smeltingtrain"] then
 			{
 				type = "recipe",
 				name = "smelting-locomotive-tender-3",
+                energy_required = 20,
 				enabled = false,
 				ingredients =
 				{
@@ -272,6 +286,7 @@ if mods["angelsaddons-smeltingtrain"] then
 			{
 				type = "recipe",
 				name = "smelting-wagon-2",
+                energy_required = 15,
 				enabled = false,
 				ingredients =
 				{
@@ -285,6 +300,7 @@ if mods["angelsaddons-smeltingtrain"] then
 			{
 				type = "recipe",
 				name = "smelting-wagon-3",
+                energy_required = 20,
 				enabled = false,
 				ingredients =
 				{
@@ -305,6 +321,7 @@ if mods["boblogistics"] then
 			{
 				type = "recipe",
 				name = "bob-cargo-bot-wagon-1",
+                energy_required = 10,
 				enabled = false,
 				ingredients =
 				{
@@ -318,6 +335,7 @@ if mods["boblogistics"] then
 			{
 				type = "recipe",
 				name = "bob-cargo-bot-wagon-2",
+                energy_required = 15,
 				enabled = false,
 				ingredients =
 				{
@@ -332,6 +350,7 @@ if mods["boblogistics"] then
 			{
 				type = "recipe",
 				name = "bob-cargo-bot-wagon-3",
+                energy_required = 20,
 				enabled = false,
 				ingredients =
 				{

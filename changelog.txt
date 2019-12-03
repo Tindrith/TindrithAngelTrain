@@ -1,8 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.2
-Date: 02. 12. 2019
+Date: 03. 12. 2019
   Bugfixes:
     - increased Robot Wagon grid size to > 8x5 for the vehicle roboport
+  Features
+    - increased Train crafting times
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 28. 11. 2019
