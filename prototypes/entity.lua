@@ -11,28 +11,34 @@ if mods["angelsindustries"] then
 				name = "angels-crawler-locomotive-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-loco-wagon-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-wagon-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "vehicle", "cargo-wagon"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-bot-wagon-2",
+<<<<<<< Updated upstream
 				width = 8,
 				height = 5,
 				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
+=======
+				width = 10,
+				height = 6,
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
+>>>>>>> Stashed changes
 			},
 			{
 				type = "item-with-entity-data",
@@ -60,7 +66,7 @@ if mods["angelsindustries"] then
 				drawing_box = {{-1, -4}, {1, 3}},
 				weight = 3000,
 				max_speed = 1.7,
-				max_power = "900kW",
+				max_power = "1200kW",
 				reversing_power_modifier = 0.6,
 				braking_force = 15,
 				friction_force = 0.375,
@@ -261,7 +267,7 @@ if mods["angelsindustries"] then
 				drawing_box = {{-1, -4}, {1, 3}},
 				weight = 3000,
 				max_speed = 1.7,
-				max_power = "1100kW",
+				max_power = "1300kW",
 				reversing_power_modifier = 0.6,
 				braking_force = 20,
 				friction_force = 0.375,
@@ -696,28 +702,34 @@ if mods["angelsindustries"] then
 				name = "angels-crawler-locomotive-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-loco-wagon-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-wagon-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "vehicle", "cargo-wagon"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-bot-wagon-3",
+<<<<<<< Updated upstream
 				width = 8,
 				height = 6,
 				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
+=======
+				width = 11,
+				height = 7,
+				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
+>>>>>>> Stashed changes
 			},
 			{
 				type = "item-with-entity-data",
@@ -745,7 +757,7 @@ if mods["angelsindustries"] then
 				drawing_box = {{-1, -4}, {1, 3}},
 				weight = 3000,
 				max_speed = 2,
-				max_power = "1200kW",
+				max_power = "1400kW",
 				reversing_power_modifier = 1,
 				braking_force = 20,
 				friction_force = 0.25,
@@ -946,7 +958,7 @@ if mods["angelsindustries"] then
 				drawing_box = {{-1, -4}, {1, 3}},
 				weight = 3000,
 				max_speed = 2,
-				max_power = "1400kW",
+				max_power = "1600kW",
 				reversing_power_modifier = 1,
 				braking_force = 25,
 				friction_force = 0.25,
@@ -1173,7 +1185,7 @@ if mods["angelsindustries"] then
 				icon = "__angelsindustries__/graphics/icons/crawler-wagon-ico.png",
 				icon_size = 32,
 				flags = {"placeable-neutral", "player-creation", "placeable-off-grid"},
-				inventory_size = 75,
+				inventory_size = 100,
 				minable = {mining_time = 1, result = "crawler-wagon-3"},
 				mined_sound = {filename = "__core__/sound/deconstruct-medium.ogg"},
 				max_health = 1200,
@@ -1387,14 +1399,14 @@ if mods["angelsaddons-petrotrain"] then
 				name = "angels-petro-locomotive-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-petro-tank-wagon-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
+				equipment_categories = {"angels-energy", "angels-movement", "train", "vehicle", "cargo-wagon"}
 			},
 			{
 				type = "item-with-entity-data",
@@ -1966,14 +1978,14 @@ if mods["angelsaddons-petrotrain"] then
 				name = "angels-petro-locomotive-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
+				equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-petro-tank-wagon-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
+				equipment_categories = {"angels-void", "angels-energy", "angels-movement", "train", "vehicle", "cargo-wagon"}
 			},
 			{
 				type = "item-with-entity-data",
@@ -2551,14 +2563,14 @@ if mods["angelsaddons-smeltingtrain"] then
 				name = "angels-smelting-locomotive-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-void", "train", "locomotive"}		--"angels-energy", "angels-heavy-defense", "angels-movement"
+				equipment_categories = {"angels-void", "train", "vehicle", "locomotive"}		--"angels-energy", "angels-heavy-defense", "angels-movement"
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-smelting-wagon-2",
 				width = 8,
 				height = 3,
-				equipment_categories = {"angels-void", "train", "cargo-wagon"}		--"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"
+				equipment_categories = {"angels-void", "angels-energy", "angels-movement", "train", "vehicle", "cargo-wagon"}		--"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"
 			},
 			{
 				type = "item-with-entity-data",
@@ -3262,14 +3274,14 @@ if mods["angelsaddons-smeltingtrain"] then
 				name = "angels-smelting-locomotive-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-void", "train", "locomotive"}		--"angels-energy", "angels-heavy-defense", "angels-movement"
+				equipment_categories = {"angels-void", "train", "vehicle", "locomotive"}		--"angels-energy", "angels-heavy-defense", "angels-movement"
 			},
 			{
 				type = "equipment-grid",
 				name = "angels-smelting-wagon-3",
 				width = 8,
 				height = 4,
-				equipment_categories = {"angels-void", "train", "cargo-wagon"}		--"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"
+				equipment_categories = {"angels-void", "angels-energy", "angels-movement", "train", "vehicle", "cargo-wagon"}		--"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement"
 			},
 			{
 				type = "item-with-entity-data",
@@ -3555,7 +3567,7 @@ if mods["angelsaddons-smeltingtrain"] then
 				drawing_box = {{-1, -4}, {1, 3}},
 				weight = 2500,
 				max_speed = 2,
-				max_power = "1100kW",
+				max_power = "1400kW",
 				reversing_power_modifier = 1,
 				braking_force = 25,
 				friction_force = 0.25,
@@ -3980,23 +3992,41 @@ data:extend(
         {
             type = "equipment-grid",
             name = "bob-bot-wagon-1",
+<<<<<<< Updated upstream
             width = 8,
             height = 4,
             equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
+=======
+            width = 9,
+            height = 5,
+            equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
+>>>>>>> Stashed changes
         },
         {
             type = "equipment-grid",
             name = "bob-bot-wagon-2",
+<<<<<<< Updated upstream
             width = 8,
             height = 5,
             equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
+=======
+            width = 10,
+            height = 6,
+            equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
+>>>>>>> Stashed changes
         },
         {
             type = "equipment-grid",
             name = "bob-bot-wagon-3",
+<<<<<<< Updated upstream
             width = 8,
             height = 6,
             equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
+=======
+            width = 11,
+            height = 7,
+            equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
+>>>>>>> Stashed changes
         },
        {
             type = "item-with-entity-data",

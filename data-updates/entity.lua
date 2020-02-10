@@ -23,11 +23,19 @@ if mods["angelsindustries"] then
 	data.raw["equipment-grid"]["angels-crawler-locomotive"].width=8
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].width=8
 	data.raw["equipment-grid"]["angels-crawler-wagon"].width=8
+<<<<<<< Updated upstream
 	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].width=8
     data.raw["equipment-grid"]["angels-crawler-locomotive"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
 	data.raw["equipment-grid"]["angels-crawler-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
 	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
+=======
+	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].width=10
+    data.raw["equipment-grid"]["angels-crawler-locomotive"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
+	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
+	data.raw["equipment-grid"]["angels-crawler-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "vehicle", "cargo-wagon"}
+	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
+>>>>>>> Stashed changes
 	data.raw["equipment-grid"]["angels-crawler-locomotive"].height=2
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].height=2
 	data.raw["equipment-grid"]["angels-crawler-wagon"].height=2
@@ -49,6 +57,8 @@ if mods["angelsaddons-petrotrain"] then
 	data.raw["equipment-grid"]["angels-petro-tank-wagon"].width=8
 	data.raw["equipment-grid"]["angels-petro-locomotive"].height=2
 	data.raw["equipment-grid"]["angels-petro-tank-wagon"].height=2
+    data.raw["equipment-grid"]["angels-petro-locomotive"].equipment_categories={"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
+	data.raw["equipment-grid"]["angels-petro-tank-wagon"].equipment_categories={"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
 	data.raw["locomotive"]["petro-locomotive-1"].max_health=1000
 	data.raw["locomotive"]["petro-locomotive-1"].weight=2000
 	data.raw["locomotive"]["petro-locomotive-1"].max_power="600kW"
@@ -69,4 +79,15 @@ if mods["angelsaddons-smeltingtrain"] then
 	data.raw["locomotive"]["smelting-locomotive-1"].max_speed=1.2
 	data.raw["locomotive"]["smelting-locomotive-tender"].max_speed=1.2
 	data.raw["cargo-wagon"]["smelting-wagon-1"].inventory_size=40
+end
+
+if mods["Clowns-Processing"] then
+    data.raw["equipment-grid"]["angels-crawler-locomotive"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
+	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
+	data.raw["equipment-grid"]["angels-crawler-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "vehicle", "cargo-wagon"}
+	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
+    data.raw["equipment-grid"]["angels-petro-locomotive"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
+	data.raw["equipment-grid"]["angels-petro-tank-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "vehicle", "cargo-wagon"}
+    data.raw["equipment-grid"]["angels-smelting-locomotive"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
+	data.raw["equipment-grid"]["angels-smelting-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "vehicle", "cargo-wagon"}
 end
