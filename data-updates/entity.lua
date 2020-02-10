@@ -23,19 +23,11 @@ if mods["angelsindustries"] then
 	data.raw["equipment-grid"]["angels-crawler-locomotive"].width=8
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].width=8
 	data.raw["equipment-grid"]["angels-crawler-wagon"].width=8
-<<<<<<< Updated upstream
-	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].width=8
-    data.raw["equipment-grid"]["angels-crawler-locomotive"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
-	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "locomotive"}
-	data.raw["equipment-grid"]["angels-crawler-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "cargo-wagon"}
-	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
-=======
 	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].width=10
     data.raw["equipment-grid"]["angels-crawler-locomotive"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].equipment_categories = {"angels-energy", "angels-heavy-defense", "angels-movement", "train", "vehicle", "locomotive"}
 	data.raw["equipment-grid"]["angels-crawler-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-movement", "train", "vehicle", "cargo-wagon"}
 	data.raw["equipment-grid"]["angels-crawler-bot-wagon"].equipment_categories = {"angels-energy", "angels-repair", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
->>>>>>> Stashed changes
 	data.raw["equipment-grid"]["angels-crawler-locomotive"].height=2
 	data.raw["equipment-grid"]["angels-crawler-loco-wagon"].height=2
 	data.raw["equipment-grid"]["angels-crawler-wagon"].height=2

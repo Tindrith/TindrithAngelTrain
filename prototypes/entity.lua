@@ -30,15 +30,9 @@ if mods["angelsindustries"] then
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-bot-wagon-2",
-<<<<<<< Updated upstream
-				width = 8,
-				height = 5,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
-=======
 				width = 10,
 				height = 6,
 				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
->>>>>>> Stashed changes
 			},
 			{
 				type = "item-with-entity-data",
@@ -721,15 +715,9 @@ if mods["angelsindustries"] then
 			{
 				type = "equipment-grid",
 				name = "angels-crawler-bot-wagon-3",
-<<<<<<< Updated upstream
-				width = 8,
-				height = 6,
-				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
-=======
 				width = 11,
 				height = 7,
 				equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
->>>>>>> Stashed changes
 			},
 			{
 				type = "item-with-entity-data",
@@ -3992,41 +3980,23 @@ data:extend(
         {
             type = "equipment-grid",
             name = "bob-bot-wagon-1",
-<<<<<<< Updated upstream
-            width = 8,
-            height = 4,
-            equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
-=======
             width = 9,
             height = 5,
             equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
->>>>>>> Stashed changes
         },
         {
             type = "equipment-grid",
             name = "bob-bot-wagon-2",
-<<<<<<< Updated upstream
-            width = 8,
-            height = 5,
-            equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
-=======
             width = 10,
             height = 6,
             equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
->>>>>>> Stashed changes
         },
         {
             type = "equipment-grid",
             name = "bob-bot-wagon-3",
-<<<<<<< Updated upstream
-            width = 8,
-            height = 6,
-            equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "cargo-wagon", "bot-wagon"}
-=======
             width = 11,
             height = 7,
             equipment_categories = {"angels-energy", "angels-repair", "angels-heavy-defense", "angels-construction", "angels-movement", "train", "vehicle", "cargo-wagon", "bot-wagon"}
->>>>>>> Stashed changes
         },
        {
             type = "item-with-entity-data",
